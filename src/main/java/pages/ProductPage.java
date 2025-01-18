@@ -58,10 +58,13 @@ public class ProductPage {
     @Step("Sıralama filtresi uygulanıyor: {targetOption}")
     public void selectSortingOption(String targetOption) {
         try {
-            logger.info("Sıralama işlemi başlatılıyor. Seçenek: " + targetOption);
+            WebElement sortButton = driver.findElement(By.xpath("//button[@class='dropdown-button__button']"));
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", sortButton);
             sortButton.click();
-            logger.info("Sırala butonuna tıklandı.");
+            System.out.println("Sırala butonuna tıklandı.");
+
+            List<WebElement> sortingOptions = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(
+                    By.xpath("//*[@id=\"root\"]/div/div[2]/div[1]/div[5]/div[1]/div/div//*[normalize-space()]")));
 
             for (WebElement option : sortingOptions) {
                 String optionText = option.getText().trim();
@@ -69,13 +72,15 @@ public class ProductPage {
 
                 if (optionText.equalsIgnoreCase(targetOption)) {
                     option.click();
-                    logger.info("Seçilen sıralama seçeneği: " + targetOption);
-                    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(@class, 'updated-sorting-results')]")));
-                    logger.info("Ürünler başarıyla sıralandı.");
+                    System.out.println("Sıralama seçeneği seçildi: " + targetOption);
+
+                    wait.until(ExpectedConditions.presenceOfElementLocated(
+                            By.xpath("//div[contains(@class, 'updated-sorting-results')]")));
+                    logger.info("Sıralama başarıyla uygulandı: " + targetOption);
                     break;
                 }
             }
-        } catch (NoSuchElementException | TimeoutException e) {
+        } catch (Exception e) {
             logger.error("Sıralama seçimi sırasında hata oluştu: " + e.getMessage());
         }
     }
@@ -85,7 +90,6 @@ public class ProductPage {
     public void viewProductDetails() {
         try {
             if (products.size() >= 4) {
-                logger.info("Ürün detay sayfasına gidiliyor.");
                 WebElement fourthProduct = products.get(3);
                 fourthProduct.click();
                 closeOverlayWithJS();
@@ -116,9 +120,7 @@ public class ProductPage {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("let overlay = document.querySelector('.evam-first-screen');" +
                     "if (overlay) { overlay.style.display = 'none'; }");
-            logger.info("Overlay başarıyla devre dışı bırakıldı.");
         } catch (Exception e) {
-            logger.warn("Overlay devre dışı bırakılamadı: " + e.getMessage());
         }
     }
 
@@ -147,7 +149,6 @@ public class ProductPage {
             logger.info("Rastgele seçilen beden: " + selectedSize.getText());
 
             addToCartButton.click();
-            logger.info("Ürün sepete başarıyla eklendi.");
         } catch (NoSuchElementException | TimeoutException e) {
             logger.error("Beden seçimi sırasında bir hata oluştu: " + e.getMessage());
         }

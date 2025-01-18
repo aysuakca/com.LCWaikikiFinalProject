@@ -25,7 +25,6 @@ public class LoginTest extends BaseTest {
         // PageFactory kullanarak LoginPage nesnesini başlatıyoruz
         // Bu, sayfa elementlerini Selenium tarafından yönetilebilir hale getirir
         loginPage = PageFactory.initElements(Driver.getDriver(), LoginPage.class);
-        logger.info("LoginPage nesnesi başarıyla başlatıldı.");
     }
 
     @Test(priority = 1)
@@ -38,9 +37,6 @@ public class LoginTest extends BaseTest {
 
     @Step("Kullanıcı giriş yapıyor: E-posta = {email}, Şifre = {password}")
     public void performLogin(String email, String password) {
-        logger.info("Kullanıcı giriş işlemi başlatıldı.");
-        logger.info("Kullanıcı e-posta adresi: " + email);
         loginPage.login(email, password);
-        logger.info("Kullanıcı giriş işlemi tamamlandı.");
     }
 }

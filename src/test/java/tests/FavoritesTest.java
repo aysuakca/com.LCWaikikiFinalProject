@@ -22,13 +22,11 @@ public class FavoritesTest extends BaseTest {
     public void setupPages() {
         // PageFactory kullanılarak FavoritesPage nesnesi başlatılıyor
         favoritesPage = PageFactory.initElements(Driver.getDriver(), FavoritesPage.class);
-        logger.info("FavoritesPage nesnesi başarıyla başlatıldı.");
     }
 
     @Test(priority = 12, dependsOnMethods = "tests.CartVerificationTest.verifyCartDetailsTest")
     @Description("Ürünü favorilere ekler ve favori ürün doğrulaması yapar.")
     public void addToFavoritesTest() {
-        logger.info("Favoriler testi başlatılıyor.");
         performAddToFavorites();
         performNavigateToFavoritesPage();
         performVerifyFavoriteProduct();

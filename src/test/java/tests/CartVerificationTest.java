@@ -26,7 +26,6 @@ public class CartVerificationTest extends BaseTest {
         // PageFactory kullanılarak CartPage ve CategoryPage nesnelerini başlatıyoruz
         cartPage = PageFactory.initElements(Driver.getDriver(), CartPage.class);
         categoryPage = PageFactory.initElements(Driver.getDriver(), CategoryPage.class);
-        logger.info("CartPage ve CategoryPage nesneleri başarıyla başlatıldı.");
     }
 
     @Test(priority = 10, dependsOnMethods = "tests.ProductActionsTest.sortProducts")
@@ -34,12 +33,10 @@ public class CartVerificationTest extends BaseTest {
     public void increaseProductQuantityTest() {
         logger.info("Ürün miktarını artırma testi başlatılıyor.");
         performIncreaseProductQuantity(5); // Sepetteki ürün miktarını artırmak için method çağrılır
-        logger.info("Ürün miktarını artırma testi başarıyla tamamlandı.");
     }
 
     @Step("Sepetteki ürün miktarını artır: Hedef Adet = {desiredQuantity}")
     public void performIncreaseProductQuantity(int desiredQuantity) {
-        logger.info("Sepetteki ürün miktarı artırılıyor. Hedef Adet: " + desiredQuantity);
         int finalQuantity = cartPage.increaseProductQuantity(desiredQuantity);
         TestData.selectedQuantity = finalQuantity; // Sonuç, TestData'ya kaydedilir
         logger.info("Ürün miktarı artırma işlemi tamamlandı. Son Adet: " + finalQuantity);
@@ -48,9 +45,7 @@ public class CartVerificationTest extends BaseTest {
     @Test(priority = 11, dependsOnMethods = "tests.CartVerificationTest.increaseProductQuantityTest")
     @Description("Sepetteki ürün detaylarını doğrular.")
     public void verifyCartDetailsTest() {
-        logger.info("Sepet detaylarını doğrulama testi başlatılıyor.");
         performVerifyCartDetails(); // Sepetteki ürün detaylarını doğrulama methodu çağrılır
-        logger.info("Sepet detaylarını doğrulama testi başarıyla tamamlandı.");
     }
 
     @Step("Sepet detaylarını doğrula")
