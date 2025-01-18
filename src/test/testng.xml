@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LC Waikiki Test Suite" verbose="1" parallel="false">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+    </listeners>
+
+    <test name="LC Waikiki Test Cases">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.CategorySelectionTest"/>
+            <class name="tests.ProductActionsTest"/>
+            <class name="tests.CartVerificationTest"/>
+            <class name="tests.FavoritesTest"/>
+        </classes>
+    </test>
+</suite>

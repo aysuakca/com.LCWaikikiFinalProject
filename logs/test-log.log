@@ -1,0 +1,450 @@
+2025-01-18 00:41:45 [main] INFO  tests.BaseTest - Test ortamı kuruluyor...
+2025-01-18 00:41:49 [main] INFO  tests.BaseTest - Tarayıcı başlatıldı ve LC Waikiki web sitesine gidildi.
+2025-01-18 00:41:49 [main] INFO  tests.BaseTest - LoginPage nesnesi başarıyla başlatıldı.
+2025-01-18 00:41:49 [main] INFO  pages.LoginPage - Çerez banner'ı kapatma işlemi başlatılıyor.
+2025-01-18 00:41:49 [main] INFO  pages.LoginPage - Çerez banner'ı başarıyla kapatıldı.
+2025-01-18 00:41:49 [main] INFO  tests.BaseTest - Çerez banner'ı kapatıldı.
+2025-01-18 00:41:49 [main] INFO  tests.LoginTest - LoginPage nesnesi başarıyla başlatıldı.
+2025-01-18 00:41:49 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:41:52 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:41:52 [main] INFO  tests.LoginTest - Kullanıcı giriş testi başlatılıyor.
+2025-01-18 00:41:52 [main] INFO  tests.LoginTest - Kullanıcı giriş işlemi başlatıldı.
+2025-01-18 00:41:52 [main] INFO  tests.LoginTest - Kullanıcı e-posta adresi: lcwbootcamptest@gmail.com
+2025-01-18 00:41:52 [main] INFO  pages.LoginPage - Giriş işlemi başlatılıyor. E-posta: lcwbootcamptest@gmail.com
+2025-01-18 00:41:54 [main] INFO  pages.LoginPage - Giriş yap butonuna tıklandı.
+2025-01-18 00:41:54 [main] INFO  pages.LoginPage - E-posta alanına değer gönderildi: lcwbootcamptest@gmail.com
+2025-01-18 00:41:54 [main] INFO  pages.LoginPage - Devam et butonuna tıklandı.
+2025-01-18 00:41:54 [main] INFO  pages.LoginPage - Şifre alanına değer gönderildi.
+2025-01-18 00:41:54 [main] INFO  pages.LoginPage - Giriş bilgileri başarıyla gönderildi.
+2025-01-18 00:41:54 [main] INFO  tests.LoginTest - Kullanıcı giriş işlemi tamamlandı.
+2025-01-18 00:41:54 [main] INFO  tests.LoginTest - Kullanıcı giriş testi başarıyla tamamlandı.
+2025-01-18 00:41:54 [main] INFO  pages.CategoryPage - CategoryPage nesnesi başarıyla başlatıldı.
+2025-01-18 00:41:54 [main] INFO  tests.CategorySelectionTest - CategoryPage nesnesi başarıyla başlatıldı.
+2025-01-18 00:41:54 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:41:57 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:41:57 [main] INFO  tests.CategorySelectionTest - Ana kategori seçimi başlatılıyor.
+2025-01-18 00:41:57 [main] INFO  tests.CategorySelectionTest - Kategori seçiliyor: ÇOCUK & BEBEK
+2025-01-18 00:41:57 [main] INFO  pages.CategoryPage - Ana kategori seçiliyor: ÇOCUK & BEBEK
+2025-01-18 00:41:58 [main] INFO  pages.CategoryPage - Ana kategori başarıyla seçildi: ÇOCUK & BEBEK
+2025-01-18 00:41:58 [main] INFO  tests.CategorySelectionTest - Kategori seçimi tamamlandı: ÇOCUK & BEBEK
+2025-01-18 00:41:58 [main] INFO  tests.CategorySelectionTest - Ana kategori seçimi tamamlandı.
+2025-01-18 00:41:58 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:42:01 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:42:01 [main] INFO  tests.CategorySelectionTest - Alt kategori seçimi başlatılıyor.
+2025-01-18 00:42:01 [main] INFO  tests.CategorySelectionTest - Alt kategori seçiliyor: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 00:42:01 [main] INFO  pages.CategoryPage - Alt kategori seçiliyor: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 00:42:02 [main] INFO  pages.CategoryPage - Alt kategori başarıyla seçildi: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 00:42:02 [main] INFO  tests.CategorySelectionTest - Alt kategori seçimi tamamlandı: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 00:42:02 [main] INFO  tests.CategorySelectionTest - Alt kategori seçimi tamamlandı.
+2025-01-18 00:42:02 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:42:05 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:42:05 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçimi başlatılıyor.
+2025-01-18 00:42:05 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçiliyor: Mont ve Kaban
+2025-01-18 00:42:05 [main] INFO  pages.CategoryPage - Ürün kategorisi seçiliyor: Mont ve Kaban
+2025-01-18 00:42:07 [main] INFO  pages.CategoryPage - Ürün kategorisi başarıyla seçildi: Mont ve Kaban
+2025-01-18 00:42:07 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçimi tamamlandı: Mont ve Kaban
+2025-01-18 00:42:07 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçimi tamamlandı.
+2025-01-18 00:42:07 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:42:10 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:42:10 [main] INFO  tests.CategorySelectionTest - Beden seçimi işlemi başlatılıyor.
+2025-01-18 00:42:10 [main] INFO  tests.CategorySelectionTest - Seçilecek bedenler: [5-6 Yaş, 6 Yaş, 6-7 Yaş]
+2025-01-18 00:42:10 [main] INFO  pages.CategoryPage - Beden filtreleme işlemi başlatılıyor. Hedef bedenler: [5-6 Yaş, 6 Yaş, 6-7 Yaş]
+2025-01-18 00:42:31 [main] ERROR pages.CategoryPage - Beden filtresi sırasında hata oluştu: Expected condition failed: waiting for value to contain "filter-option--active". (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52260/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3239d1e3b9f9fae639601bbcc3765d3
+2025-01-18 00:42:31 [main] INFO  tests.CategorySelectionTest - Beden seçimi tamamlandı: [5-6 Yaş, 6 Yaş, 6-7 Yaş]
+2025-01-18 00:42:31 [main] INFO  tests.CategorySelectionTest - Beden seçimi işlemi tamamlandı.
+2025-01-18 00:42:31 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:42:34 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:42:34 [main] INFO  tests.CategorySelectionTest - Renk seçimi işlemi başlatılıyor.
+2025-01-18 00:42:34 [main] INFO  tests.CategorySelectionTest - Seçilen renk: BEJ
+2025-01-18 00:42:34 [main] INFO  pages.CategoryPage - Renk filtresi seçiliyor: BEJ
+2025-01-18 00:42:54 [main] ERROR pages.CategoryPage - Renk filtresi seçimi sırasında hata oluştu: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, 'updated-filter-results')] (tried for 20 second(s) with 500 milliseconds interval)
+2025-01-18 00:42:54 [main] INFO  tests.CategorySelectionTest - Renk seçimi tamamlandı: BEJ
+2025-01-18 00:42:54 [main] INFO  tests.CategorySelectionTest - Renk seçimi işlemi tamamlandı.
+2025-01-18 00:42:54 [main] INFO  tests.ProductActionsTest - ProductPage nesnesi başarıyla başlatıldı.
+2025-01-18 00:42:54 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:42:58 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:42:58 [main] INFO  tests.ProductActionsTest - Ürün sıralama işlemi başlatıldı: En çok satanlar
+2025-01-18 00:42:58 [main] INFO  pages.ProductPage - Sıralama işlemi başlatılıyor. Seçenek: En çok satanlar
+2025-01-18 00:42:58 [main] INFO  pages.ProductPage - Sırala butonuna tıklandı.
+2025-01-18 00:42:58 [main] INFO  pages.ProductPage - Seçilen sıralama seçeneği: En çok satanlar
+2025-01-18 00:43:09 [main] ERROR pages.ProductPage - Sıralama seçimi sırasında hata oluştu: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, 'updated-sorting-results')] (tried for 10 second(s) with 500 milliseconds interval)
+2025-01-18 00:43:09 [main] INFO  tests.ProductActionsTest - Ürünler başarıyla sıralandı: En çok satanlar
+2025-01-18 00:43:09 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:43:12 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:43:12 [main] INFO  tests.ProductActionsTest - Ürün detayları görüntüleniyor.
+2025-01-18 00:43:12 [main] INFO  pages.ProductPage - Ürün detay sayfasına gidiliyor.
+2025-01-18 00:43:16 [main] INFO  pages.ProductPage - Overlay devre dışı bırakılıyor.
+2025-01-18 00:43:16 [main] INFO  pages.ProductPage - Overlay başarıyla devre dışı bırakıldı.
+2025-01-18 00:43:16 [main] INFO  pages.ProductPage - Ürün bilgileri TestData'ya kaydedildi. Ad: LCW Kids Bej Kapüşonlu Kız Çocuk Kaban, Renk: Bej, Fiyat: 1.34999
+2025-01-18 00:43:16 [main] INFO  tests.ProductActionsTest - Ürün detayları başarıyla görüntülendi.
+2025-01-18 00:43:16 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:43:19 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:43:19 [main] INFO  tests.ProductActionsTest - Ürün sepete ekleniyor.
+2025-01-18 00:43:19 [main] INFO  pages.ProductPage - Overlay devre dışı bırakılıyor.
+2025-01-18 00:43:19 [main] INFO  pages.ProductPage - Overlay başarıyla devre dışı bırakıldı.
+2025-01-18 00:43:19 [main] INFO  pages.ProductPage - Stokta bulunan bedenler kontrol ediliyor.
+2025-01-18 00:43:19 [main] INFO  pages.ProductPage - Rastgele seçilen beden: 7-8 Yaş
+2025-01-18 00:43:19 [main] INFO  pages.ProductPage - Ürün sepete başarıyla eklendi.
+2025-01-18 00:43:19 [main] INFO  tests.ProductActionsTest - Ürün sepete başarıyla eklendi.
+2025-01-18 00:43:19 [main] INFO  pages.CartPage - CartPage nesnesi başarıyla başlatıldı.
+2025-01-18 00:43:19 [main] INFO  pages.CategoryPage - CategoryPage nesnesi başarıyla başlatıldı.
+2025-01-18 00:43:19 [main] INFO  tests.CartVerificationTest - CartPage ve CategoryPage nesneleri başarıyla başlatıldı.
+2025-01-18 00:43:19 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:43:22 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:43:22 [main] INFO  tests.CartVerificationTest - Ürün miktarını artırma testi başlatılıyor.
+2025-01-18 00:43:22 [main] INFO  tests.CartVerificationTest - Sepetteki ürün miktarı artırılıyor. Hedef Adet: 5
+2025-01-18 00:43:22 [main] INFO  pages.CartPage - Ürün miktarı artırılıyor. Hedef miktar: 5
+2025-01-18 00:43:22 [main] INFO  pages.CartPage - Sepetim ekranına gidiliyor.
+2025-01-18 00:43:25 [main] INFO  pages.CartPage - Sepetim ekranına başarıyla gidildi.
+2025-01-18 00:43:25 [main] INFO  pages.CartPage - Maksimum stok bilgisi alındı: 3
+2025-01-18 00:43:25 [main] WARN  pages.CartPage - Hedef miktar maksimum stoğu aşıyor. Maksimum stok: 3
+2025-01-18 00:43:25 [main] INFO  pages.CartPage - Ürün miktarı güncellendi: 3
+2025-01-18 00:43:45 [main] INFO  pages.CartPage - Stok limiti pop-up'ı bulunamadı.
+2025-01-18 00:43:45 [main] INFO  tests.CartVerificationTest - Ürün miktarı artırma işlemi tamamlandı. Son Adet: 3
+2025-01-18 00:43:45 [main] INFO  tests.CartVerificationTest - Ürün miktarını artırma testi başarıyla tamamlandı.
+2025-01-18 00:43:45 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:43:48 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:43:48 [main] INFO  tests.CartVerificationTest - Sepet detaylarını doğrulama testi başlatılıyor.
+2025-01-18 00:43:48 [main] INFO  tests.CartVerificationTest - Sepetteki ürün detayları doğrulanıyor.
+2025-01-18 00:43:48 [main] INFO  pages.CartPage - Sepet detayları doğrulanıyor.
+2025-01-18 00:43:48 [main] INFO  pages.CartPage - Ürün adı doğrulandı: Kaban
+2025-01-18 00:43:48 [main] INFO  pages.CartPage - Ürün rengi doğrulandı: Bej
+2025-01-18 00:43:48 [main] INFO  pages.CartPage - Ürün miktarı doğrulandı: 3
+2025-01-18 00:43:48 [main] ERROR pages.CartPage - Sepetteki ürün fiyatı uyuşmuyor. Beklenen: 1.34999, Bulunan: 4.04997
+2025-01-18 00:43:48 [main] INFO  pages.CartPage - Sepet detayları doğrulama işlemi tamamlandı.
+2025-01-18 00:43:48 [main] INFO  tests.CartVerificationTest - Ürün detayları ve sepetteki bilgiler başarıyla doğrulandı.
+2025-01-18 00:43:48 [main] INFO  tests.CartVerificationTest - Sepet detaylarını doğrulama testi başarıyla tamamlandı.
+2025-01-18 00:43:48 [main] INFO  tests.FavoritesTest - FavoritesPage nesnesi başarıyla başlatıldı.
+2025-01-18 00:43:48 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 00:43:51 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 00:43:51 [main] INFO  tests.FavoritesTest - Favoriler testi başlatılıyor.
+2025-01-18 00:43:51 [main] INFO  tests.FavoritesTest - Ürün favorilere ekleniyor.
+2025-01-18 00:43:51 [main] INFO  pages.FavoritesPage - Favorilere ekleme işlemi başlatılıyor.
+2025-01-18 00:43:51 [main] INFO  pages.FavoritesPage - Favorilere ekle butonuna tıklandı.
+2025-01-18 00:44:02 [main] ERROR pages.FavoritesPage - Favorilere ekleme sırasında bir sorun oluştu: Expected condition failed: waiting for value to contain "favorited". (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52260/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3239d1e3b9f9fae639601bbcc3765d3
+2025-01-18 00:44:02 [main] INFO  tests.FavoritesTest - Ürün başarıyla favorilere eklendi.
+2025-01-18 00:44:02 [main] INFO  tests.FavoritesTest - Favorilerim sayfasına gidiliyor.
+2025-01-18 00:44:02 [main] INFO  pages.FavoritesPage - Favorilerim sayfasına yönlendirme işlemi başlatılıyor.
+2025-01-18 00:44:04 [main] INFO  pages.FavoritesPage - Favorilerim sayfasına başarıyla gidildi.
+2025-01-18 00:44:04 [main] INFO  tests.FavoritesTest - Favorilerim sayfasına başarıyla gidildi.
+2025-01-18 00:44:04 [main] INFO  tests.FavoritesTest - Favori ürün doğrulaması yapılıyor.
+2025-01-18 00:44:04 [main] INFO  pages.FavoritesPage - Favorilerdeki ürün doğrulama işlemi başlatılıyor.
+2025-01-18 00:44:15 [main] ERROR pages.FavoritesPage - Favoriler doğrulama sırasında bir sorun oluştu: Expected condition failed: waiting for visibility of all [] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52260/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3239d1e3b9f9fae639601bbcc3765d3
+2025-01-18 00:44:15 [main] INFO  tests.FavoritesTest - Favorilerdeki ürün başarıyla doğrulandı.
+2025-01-18 00:44:15 [main] INFO  tests.FavoritesTest - Favoriler testi başarıyla tamamlandı.
+2025-01-18 00:44:15 [main] INFO  tests.BaseTest - Test tamamlandı, tarayıcı kapatılıyor...
+2025-01-18 00:44:15 [main] INFO  tests.BaseTest - Tarayıcı başarıyla kapatıldı.
+2025-01-18 01:00:05 [main] INFO  tests.BaseTest - Test ortamı kuruluyor...
+2025-01-18 01:00:08 [main] INFO  tests.BaseTest - Tarayıcı başlatıldı ve LC Waikiki web sitesine gidildi.
+2025-01-18 01:00:08 [main] INFO  tests.BaseTest - LoginPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:00:08 [main] INFO  pages.LoginPage - Çerez banner'ı kapatma işlemi başlatılıyor.
+2025-01-18 01:00:08 [main] INFO  pages.LoginPage - Çerez banner'ı başarıyla kapatıldı.
+2025-01-18 01:00:08 [main] INFO  tests.BaseTest - Çerez banner'ı kapatıldı.
+2025-01-18 01:00:08 [main] INFO  tests.LoginTest - LoginPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:00:08 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:00:11 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:00:11 [main] INFO  tests.LoginTest - Kullanıcı giriş testi başlatılıyor.
+2025-01-18 01:00:11 [main] INFO  tests.LoginTest - Kullanıcı giriş işlemi başlatıldı.
+2025-01-18 01:00:11 [main] INFO  tests.LoginTest - Kullanıcı e-posta adresi: lcwbootcamptest@gmail.com
+2025-01-18 01:00:11 [main] INFO  pages.LoginPage - Giriş işlemi başlatılıyor. E-posta: lcwbootcamptest@gmail.com
+2025-01-18 01:00:13 [main] INFO  pages.LoginPage - Giriş yap butonuna tıklandı.
+2025-01-18 01:00:13 [main] INFO  pages.LoginPage - E-posta alanına değer gönderildi: lcwbootcamptest@gmail.com
+2025-01-18 01:00:13 [main] INFO  pages.LoginPage - Devam et butonuna tıklandı.
+2025-01-18 01:00:13 [main] INFO  pages.LoginPage - Şifre alanına değer gönderildi.
+2025-01-18 01:00:13 [main] INFO  pages.LoginPage - Giriş bilgileri başarıyla gönderildi.
+2025-01-18 01:00:13 [main] INFO  tests.LoginTest - Kullanıcı giriş işlemi tamamlandı.
+2025-01-18 01:00:13 [main] INFO  tests.LoginTest - Kullanıcı giriş testi başarıyla tamamlandı.
+2025-01-18 01:00:13 [main] INFO  pages.CategoryPage - CategoryPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:00:13 [main] INFO  tests.CategorySelectionTest - CategoryPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:00:13 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:00:16 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:00:16 [main] INFO  tests.CategorySelectionTest - Ana kategori seçimi başlatılıyor.
+2025-01-18 01:00:16 [main] INFO  tests.CategorySelectionTest - Kategori seçiliyor: ÇOCUK & BEBEK
+2025-01-18 01:00:16 [main] INFO  pages.CategoryPage - Ana kategori seçiliyor: ÇOCUK & BEBEK
+2025-01-18 01:00:17 [main] INFO  pages.CategoryPage - Ana kategori başarıyla seçildi: ÇOCUK & BEBEK
+2025-01-18 01:00:17 [main] INFO  tests.CategorySelectionTest - Kategori seçimi tamamlandı: ÇOCUK & BEBEK
+2025-01-18 01:00:17 [main] INFO  tests.CategorySelectionTest - Ana kategori seçimi tamamlandı.
+2025-01-18 01:00:17 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:00:20 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:00:20 [main] INFO  tests.CategorySelectionTest - Alt kategori seçimi başlatılıyor.
+2025-01-18 01:00:20 [main] INFO  tests.CategorySelectionTest - Alt kategori seçiliyor: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 01:00:20 [main] INFO  pages.CategoryPage - Alt kategori seçiliyor: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 01:00:20 [main] INFO  pages.CategoryPage - Alt kategori başarıyla seçildi: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 01:00:20 [main] INFO  tests.CategorySelectionTest - Alt kategori seçimi tamamlandı: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 01:00:20 [main] INFO  tests.CategorySelectionTest - Alt kategori seçimi tamamlandı.
+2025-01-18 01:00:20 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:00:23 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:00:23 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçimi başlatılıyor.
+2025-01-18 01:00:23 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçiliyor: Mont ve Kaban
+2025-01-18 01:00:23 [main] INFO  pages.CategoryPage - Ürün kategorisi seçiliyor: Mont ve Kaban
+2025-01-18 01:00:26 [main] INFO  pages.CategoryPage - Ürün kategorisi başarıyla seçildi: Mont ve Kaban
+2025-01-18 01:00:26 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçimi tamamlandı: Mont ve Kaban
+2025-01-18 01:00:26 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçimi tamamlandı.
+2025-01-18 01:00:26 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:00:29 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:00:29 [main] INFO  tests.CategorySelectionTest - Beden seçimi işlemi başlatılıyor.
+2025-01-18 01:00:29 [main] INFO  tests.CategorySelectionTest - Seçilecek bedenler: [5-6 Yaş, 6 Yaş, 6-7 Yaş]
+2025-01-18 01:00:29 [main] INFO  pages.CategoryPage - Beden filtreleme işlemi başlatılıyor. Hedef bedenler: [5-6 Yaş, 6 Yaş, 6-7 Yaş]
+2025-01-18 01:00:50 [main] ERROR pages.CategoryPage - Beden filtresi sırasında hata oluştu: Expected condition failed: waiting for value to contain "filter-option--active". (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53033/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92820af10a497d8da953e1163d3d0687
+2025-01-18 01:00:50 [main] INFO  tests.CategorySelectionTest - Beden seçimi tamamlandı: [5-6 Yaş, 6 Yaş, 6-7 Yaş]
+2025-01-18 01:00:50 [main] INFO  tests.CategorySelectionTest - Beden seçimi işlemi tamamlandı.
+2025-01-18 01:00:50 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:00:53 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:00:53 [main] INFO  tests.CategorySelectionTest - Renk seçimi işlemi başlatılıyor.
+2025-01-18 01:00:53 [main] INFO  tests.CategorySelectionTest - Seçilen renk: BEJ
+2025-01-18 01:00:53 [main] INFO  pages.CategoryPage - Renk filtresi seçiliyor: BEJ
+2025-01-18 01:01:13 [main] ERROR pages.CategoryPage - Renk filtresi seçimi sırasında hata oluştu: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, 'updated-filter-results')] (tried for 20 second(s) with 500 milliseconds interval)
+2025-01-18 01:01:13 [main] INFO  tests.CategorySelectionTest - Renk seçimi tamamlandı: BEJ
+2025-01-18 01:01:13 [main] INFO  tests.CategorySelectionTest - Renk seçimi işlemi tamamlandı.
+2025-01-18 01:01:13 [main] INFO  tests.ProductActionsTest - ProductPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:01:13 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:01:16 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:01:16 [main] INFO  tests.ProductActionsTest - Ürün sıralama işlemi başlatıldı: En çok satanlar
+2025-01-18 01:01:16 [main] INFO  pages.ProductPage - Sıralama işlemi başlatılıyor. Seçenek: En çok satanlar
+2025-01-18 01:01:17 [main] INFO  pages.ProductPage - Sırala butonuna tıklandı.
+2025-01-18 01:01:17 [main] INFO  pages.ProductPage - Seçilen sıralama seçeneği: En çok satanlar
+2025-01-18 01:01:27 [main] ERROR pages.ProductPage - Sıralama seçimi sırasında hata oluştu: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, 'updated-sorting-results')] (tried for 10 second(s) with 500 milliseconds interval)
+2025-01-18 01:01:27 [main] INFO  tests.ProductActionsTest - Ürünler başarıyla sıralandı: En çok satanlar
+2025-01-18 01:01:27 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:01:30 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:01:30 [main] INFO  tests.ProductActionsTest - Ürün detayları görüntüleniyor.
+2025-01-18 01:01:30 [main] INFO  pages.ProductPage - Ürün detay sayfasına gidiliyor.
+2025-01-18 01:01:35 [main] INFO  pages.ProductPage - Overlay devre dışı bırakılıyor.
+2025-01-18 01:01:35 [main] INFO  pages.ProductPage - Overlay başarıyla devre dışı bırakıldı.
+2025-01-18 01:01:35 [main] INFO  pages.ProductPage - Ürün bilgileri TestData'ya kaydedildi. Ad: LCW Kids Bej Kapüşonlu Kız Çocuk Kaban, Renk: Bej, Fiyat: 1.34999
+2025-01-18 01:01:35 [main] INFO  tests.ProductActionsTest - Ürün detayları başarıyla görüntülendi.
+2025-01-18 01:01:35 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:01:38 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:01:38 [main] INFO  tests.ProductActionsTest - Ürün sepete ekleniyor.
+2025-01-18 01:01:38 [main] INFO  pages.ProductPage - Overlay devre dışı bırakılıyor.
+2025-01-18 01:01:38 [main] INFO  pages.ProductPage - Overlay başarıyla devre dışı bırakıldı.
+2025-01-18 01:01:38 [main] INFO  pages.ProductPage - Stokta bulunan bedenler kontrol ediliyor.
+2025-01-18 01:01:38 [main] INFO  pages.ProductPage - Rastgele seçilen beden: 5-6 Yaş
+2025-01-18 01:01:38 [main] INFO  pages.ProductPage - Ürün sepete başarıyla eklendi.
+2025-01-18 01:01:38 [main] INFO  tests.ProductActionsTest - Ürün sepete başarıyla eklendi.
+2025-01-18 01:01:38 [main] INFO  pages.CartPage - CartPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:01:38 [main] INFO  pages.CategoryPage - CategoryPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:01:38 [main] INFO  tests.CartVerificationTest - CartPage ve CategoryPage nesneleri başarıyla başlatıldı.
+2025-01-18 01:01:38 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:01:41 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:01:41 [main] INFO  tests.CartVerificationTest - Ürün miktarını artırma testi başlatılıyor.
+2025-01-18 01:01:41 [main] INFO  tests.CartVerificationTest - Sepetteki ürün miktarı artırılıyor. Hedef Adet: 5
+2025-01-18 01:01:41 [main] INFO  pages.CartPage - Ürün miktarı artırılıyor. Hedef miktar: 5
+2025-01-18 01:01:41 [main] INFO  pages.CartPage - Sepetim ekranına gidiliyor.
+2025-01-18 01:01:44 [main] INFO  pages.CartPage - Sepetim ekranına başarıyla gidildi.
+2025-01-18 01:01:44 [main] INFO  pages.CartPage - Ürün miktarı güncellendi: 5
+2025-01-18 01:02:04 [main] INFO  pages.CartPage - Stok limiti pop-up'ı bulunamadı.
+2025-01-18 01:02:04 [main] INFO  tests.CartVerificationTest - Ürün miktarı artırma işlemi tamamlandı. Son Adet: 5
+2025-01-18 01:02:04 [main] INFO  tests.CartVerificationTest - Ürün miktarını artırma testi başarıyla tamamlandı.
+2025-01-18 01:02:04 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:02:07 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:02:07 [main] INFO  tests.CartVerificationTest - Sepet detaylarını doğrulama testi başlatılıyor.
+2025-01-18 01:02:07 [main] INFO  tests.CartVerificationTest - Sepetteki ürün detayları doğrulanıyor.
+2025-01-18 01:02:07 [main] INFO  pages.CartPage - Sepet detayları doğrulanıyor.
+2025-01-18 01:02:08 [main] INFO  pages.CartPage - Ürün adı doğrulandı: Kaban
+2025-01-18 01:02:08 [main] INFO  pages.CartPage - Ürün rengi doğrulandı: Bej
+2025-01-18 01:02:08 [main] INFO  pages.CartPage - Ürün miktarı doğrulandı: 5
+2025-01-18 01:02:08 [main] ERROR pages.CartPage - Sepetteki ürün fiyatı uyuşmuyor. Beklenen: 1.34999, Bulunan: 6.74995
+2025-01-18 01:02:08 [main] INFO  pages.CartPage - Sepet detayları doğrulama işlemi tamamlandı.
+2025-01-18 01:02:08 [main] INFO  tests.CartVerificationTest - Ürün detayları ve sepetteki bilgiler başarıyla doğrulandı.
+2025-01-18 01:02:08 [main] INFO  tests.CartVerificationTest - Sepet detaylarını doğrulama testi başarıyla tamamlandı.
+2025-01-18 01:02:08 [main] INFO  tests.FavoritesTest - FavoritesPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:02:08 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:02:11 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:02:11 [main] INFO  tests.FavoritesTest - Favoriler testi başlatılıyor.
+2025-01-18 01:02:11 [main] INFO  tests.FavoritesTest - Ürün favorilere ekleniyor.
+2025-01-18 01:02:11 [main] INFO  pages.FavoritesPage - Favorilere ekleme işlemi başlatılıyor.
+2025-01-18 01:02:11 [main] INFO  pages.FavoritesPage - Favorilere ekle butonuna tıklandı.
+2025-01-18 01:02:21 [main] ERROR pages.FavoritesPage - Favorilere ekleme sırasında bir sorun oluştu: Expected condition failed: waiting for value to contain "favorited". (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53033/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92820af10a497d8da953e1163d3d0687
+2025-01-18 01:02:21 [main] INFO  tests.FavoritesTest - Ürün başarıyla favorilere eklendi.
+2025-01-18 01:02:21 [main] INFO  tests.FavoritesTest - Favorilerim sayfasına gidiliyor.
+2025-01-18 01:02:21 [main] INFO  pages.FavoritesPage - Favorilerim sayfasına yönlendirme işlemi başlatılıyor.
+2025-01-18 01:02:24 [main] INFO  pages.FavoritesPage - Favorilerim sayfasına başarıyla gidildi.
+2025-01-18 01:02:24 [main] INFO  tests.FavoritesTest - Favorilerim sayfasına başarıyla gidildi.
+2025-01-18 01:02:24 [main] INFO  tests.FavoritesTest - Favori ürün doğrulaması yapılıyor.
+2025-01-18 01:02:24 [main] INFO  pages.FavoritesPage - Favorilerdeki ürün doğrulama işlemi başlatılıyor.
+2025-01-18 01:02:34 [main] ERROR pages.FavoritesPage - Favoriler doğrulama sırasında bir sorun oluştu: Expected condition failed: waiting for visibility of all [] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53033/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92820af10a497d8da953e1163d3d0687
+2025-01-18 01:02:34 [main] INFO  tests.FavoritesTest - Favorilerdeki ürün başarıyla doğrulandı.
+2025-01-18 01:02:34 [main] INFO  tests.FavoritesTest - Favoriler testi başarıyla tamamlandı.
+2025-01-18 01:02:34 [main] INFO  tests.BaseTest - Test tamamlandı, tarayıcı kapatılıyor...
+2025-01-18 01:02:34 [main] INFO  tests.BaseTest - Tarayıcı başarıyla kapatıldı.
+2025-01-18 01:04:03 [main] INFO  tests.BaseTest - Test ortamı kuruluyor...
+2025-01-18 01:04:06 [main] INFO  tests.BaseTest - Tarayıcı başlatıldı ve LC Waikiki web sitesine gidildi.
+2025-01-18 01:04:06 [main] INFO  tests.BaseTest - LoginPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:04:06 [main] INFO  pages.LoginPage - Çerez banner'ı kapatma işlemi başlatılıyor.
+2025-01-18 01:04:06 [main] INFO  tests.BaseTest - Çerez banner'ı kapatıldı.
+2025-01-18 01:04:06 [main] INFO  tests.LoginTest - LoginPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:04:06 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:04:09 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:04:09 [main] INFO  tests.LoginTest - Kullanıcı giriş testi başlatılıyor.
+2025-01-18 01:04:09 [main] INFO  tests.LoginTest - Kullanıcı giriş işlemi başlatıldı.
+2025-01-18 01:04:09 [main] INFO  tests.LoginTest - Kullanıcı e-posta adresi: lcwbootcamptest@gmail.com
+2025-01-18 01:04:09 [main] INFO  pages.LoginPage - Giriş işlemi başlatılıyor. E-posta: lcwbootcamptest@gmail.com
+2025-01-18 01:04:11 [main] INFO  pages.LoginPage - Giriş yap butonuna tıklandı.
+2025-01-18 01:04:11 [main] INFO  pages.LoginPage - E-posta alanına değer gönderildi: lcwbootcamptest@gmail.com
+2025-01-18 01:04:12 [main] INFO  pages.LoginPage - Devam et butonuna tıklandı.
+2025-01-18 01:04:12 [main] INFO  pages.LoginPage - Şifre alanına değer gönderildi.
+2025-01-18 01:04:12 [main] INFO  pages.LoginPage - Giriş bilgileri başarıyla gönderildi.
+2025-01-18 01:04:12 [main] INFO  tests.LoginTest - Kullanıcı giriş işlemi tamamlandı.
+2025-01-18 01:04:12 [main] INFO  tests.LoginTest - Kullanıcı giriş testi başarıyla tamamlandı.
+2025-01-18 01:04:12 [main] INFO  pages.CategoryPage - CategoryPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:04:12 [main] INFO  tests.CategorySelectionTest - CategoryPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:04:12 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:04:15 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:04:15 [main] INFO  tests.CategorySelectionTest - Ana kategori seçimi başlatılıyor.
+2025-01-18 01:04:15 [main] INFO  tests.CategorySelectionTest - Kategori seçiliyor: ÇOCUK & BEBEK
+2025-01-18 01:04:15 [main] INFO  pages.CategoryPage - Ana kategori seçiliyor: ÇOCUK & BEBEK
+2025-01-18 01:04:16 [main] INFO  pages.CategoryPage - Ana kategori başarıyla seçildi: ÇOCUK & BEBEK
+2025-01-18 01:04:16 [main] INFO  tests.CategorySelectionTest - Kategori seçimi tamamlandı: ÇOCUK & BEBEK
+2025-01-18 01:04:16 [main] INFO  tests.CategorySelectionTest - Ana kategori seçimi tamamlandı.
+2025-01-18 01:04:16 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:04:19 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:04:19 [main] INFO  tests.CategorySelectionTest - Alt kategori seçimi başlatılıyor.
+2025-01-18 01:04:19 [main] INFO  tests.CategorySelectionTest - Alt kategori seçiliyor: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 01:04:19 [main] INFO  pages.CategoryPage - Alt kategori seçiliyor: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 01:04:19 [main] INFO  pages.CategoryPage - Alt kategori başarıyla seçildi: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 01:04:19 [main] INFO  tests.CategorySelectionTest - Alt kategori seçimi tamamlandı: KIZ ÇOCUK (6-14 YAŞ)
+2025-01-18 01:04:19 [main] INFO  tests.CategorySelectionTest - Alt kategori seçimi tamamlandı.
+2025-01-18 01:04:19 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:04:22 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:04:22 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçimi başlatılıyor.
+2025-01-18 01:04:22 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçiliyor: Mont ve Kaban
+2025-01-18 01:04:22 [main] INFO  pages.CategoryPage - Ürün kategorisi seçiliyor: Mont ve Kaban
+2025-01-18 01:04:24 [main] INFO  pages.CategoryPage - Ürün kategorisi başarıyla seçildi: Mont ve Kaban
+2025-01-18 01:04:24 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçimi tamamlandı: Mont ve Kaban
+2025-01-18 01:04:24 [main] INFO  tests.CategorySelectionTest - Ürün kategorisi seçimi tamamlandı.
+2025-01-18 01:04:24 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:04:27 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:04:27 [main] INFO  tests.CategorySelectionTest - Beden seçimi işlemi başlatılıyor.
+2025-01-18 01:04:27 [main] INFO  tests.CategorySelectionTest - Seçilecek bedenler: [5-6 Yaş, 6 Yaş, 6-7 Yaş]
+2025-01-18 01:04:27 [main] INFO  pages.CategoryPage - Beden filtreleme işlemi başlatılıyor. Hedef bedenler: [5-6 Yaş, 6 Yaş, 6-7 Yaş]
+2025-01-18 01:04:48 [main] ERROR pages.CategoryPage - Beden filtresi sırasında hata oluştu: Expected condition failed: waiting for value to contain "filter-option--active". (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53394/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 649eb1e8876924f84230716988ee8567
+2025-01-18 01:04:48 [main] INFO  tests.CategorySelectionTest - Beden seçimi tamamlandı: [5-6 Yaş, 6 Yaş, 6-7 Yaş]
+2025-01-18 01:04:48 [main] INFO  tests.CategorySelectionTest - Beden seçimi işlemi tamamlandı.
+2025-01-18 01:04:48 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:04:51 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:04:51 [main] INFO  tests.CategorySelectionTest - Renk seçimi işlemi başlatılıyor.
+2025-01-18 01:04:51 [main] INFO  tests.CategorySelectionTest - Seçilen renk: BEJ
+2025-01-18 01:04:51 [main] INFO  pages.CategoryPage - Renk filtresi seçiliyor: BEJ
+2025-01-18 01:05:12 [main] ERROR pages.CategoryPage - Renk filtresi seçimi sırasında hata oluştu: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, 'updated-filter-results')] (tried for 20 second(s) with 500 milliseconds interval)
+2025-01-18 01:05:12 [main] INFO  tests.CategorySelectionTest - Renk seçimi tamamlandı: BEJ
+2025-01-18 01:05:12 [main] INFO  tests.CategorySelectionTest - Renk seçimi işlemi tamamlandı.
+2025-01-18 01:05:12 [main] INFO  tests.ProductActionsTest - ProductPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:05:12 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:05:15 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:05:15 [main] INFO  tests.ProductActionsTest - Ürün sıralama işlemi başlatıldı: En çok satanlar
+2025-01-18 01:05:15 [main] INFO  pages.ProductPage - Sıralama işlemi başlatılıyor. Seçenek: En çok satanlar
+2025-01-18 01:05:15 [main] INFO  pages.ProductPage - Sırala butonuna tıklandı.
+2025-01-18 01:05:16 [main] INFO  pages.ProductPage - Seçilen sıralama seçeneği: En çok satanlar
+2025-01-18 01:05:26 [main] ERROR pages.ProductPage - Sıralama seçimi sırasında hata oluştu: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, 'updated-sorting-results')] (tried for 10 second(s) with 500 milliseconds interval)
+2025-01-18 01:05:26 [main] INFO  tests.ProductActionsTest - Ürünler başarıyla sıralandı: En çok satanlar
+2025-01-18 01:05:26 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:05:29 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:05:29 [main] INFO  tests.ProductActionsTest - Ürün detayları görüntüleniyor.
+2025-01-18 01:05:29 [main] INFO  pages.ProductPage - Ürün detay sayfasına gidiliyor.
+2025-01-18 01:05:39 [main] INFO  pages.ProductPage - Overlay devre dışı bırakılıyor.
+2025-01-18 01:05:39 [main] INFO  pages.ProductPage - Overlay başarıyla devre dışı bırakıldı.
+2025-01-18 01:05:39 [main] INFO  pages.ProductPage - Ürün bilgileri TestData'ya kaydedildi. Ad: LCW Kids Bej Kapüşonlu Kız Çocuk Kaban, Renk: Bej, Fiyat: 1.34999
+2025-01-18 01:05:39 [main] INFO  tests.ProductActionsTest - Ürün detayları başarıyla görüntülendi.
+2025-01-18 01:05:39 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:05:42 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:05:42 [main] INFO  tests.ProductActionsTest - Ürün sepete ekleniyor.
+2025-01-18 01:05:42 [main] INFO  pages.ProductPage - Overlay devre dışı bırakılıyor.
+2025-01-18 01:05:42 [main] INFO  pages.ProductPage - Overlay başarıyla devre dışı bırakıldı.
+2025-01-18 01:05:42 [main] INFO  pages.ProductPage - Stokta bulunan bedenler kontrol ediliyor.
+2025-01-18 01:05:42 [main] INFO  pages.ProductPage - Rastgele seçilen beden: 10-11 Yaş
+2025-01-18 01:05:42 [main] INFO  pages.ProductPage - Ürün sepete başarıyla eklendi.
+2025-01-18 01:05:42 [main] INFO  tests.ProductActionsTest - Ürün sepete başarıyla eklendi.
+2025-01-18 01:05:42 [main] INFO  pages.CartPage - CartPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:05:42 [main] INFO  pages.CategoryPage - CategoryPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:05:42 [main] INFO  tests.CartVerificationTest - CartPage ve CategoryPage nesneleri başarıyla başlatıldı.
+2025-01-18 01:05:42 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:05:45 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:05:45 [main] INFO  tests.CartVerificationTest - Ürün miktarını artırma testi başlatılıyor.
+2025-01-18 01:05:45 [main] INFO  tests.CartVerificationTest - Sepetteki ürün miktarı artırılıyor. Hedef Adet: 5
+2025-01-18 01:05:45 [main] INFO  pages.CartPage - Ürün miktarı artırılıyor. Hedef miktar: 5
+2025-01-18 01:05:45 [main] INFO  pages.CartPage - Sepetim ekranına gidiliyor.
+2025-01-18 01:05:48 [main] INFO  pages.CartPage - Sepetim ekranına başarıyla gidildi.
+2025-01-18 01:05:48 [main] INFO  pages.CartPage - Maksimum stok bilgisi alındı: 1
+2025-01-18 01:05:48 [main] WARN  pages.CartPage - Hedef miktar maksimum stoğu aşıyor. Maksimum stok: 1
+2025-01-18 01:05:48 [main] INFO  pages.CartPage - Ürün miktarı güncellendi: 1
+2025-01-18 01:06:09 [main] INFO  pages.CartPage - Stok limiti pop-up'ı bulunamadı.
+2025-01-18 01:06:09 [main] INFO  tests.CartVerificationTest - Ürün miktarı artırma işlemi tamamlandı. Son Adet: 1
+2025-01-18 01:06:09 [main] INFO  tests.CartVerificationTest - Ürün miktarını artırma testi başarıyla tamamlandı.
+2025-01-18 01:06:09 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:06:12 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:06:12 [main] INFO  tests.CartVerificationTest - Sepet detaylarını doğrulama testi başlatılıyor.
+2025-01-18 01:06:12 [main] INFO  tests.CartVerificationTest - Sepetteki ürün detayları doğrulanıyor.
+2025-01-18 01:06:12 [main] INFO  pages.CartPage - Sepet detayları doğrulanıyor.
+2025-01-18 01:06:12 [main] INFO  pages.CartPage - Ürün adı doğrulandı: Kaban
+2025-01-18 01:06:12 [main] INFO  pages.CartPage - Ürün rengi doğrulandı: Bej
+2025-01-18 01:06:12 [main] INFO  pages.CartPage - Ürün miktarı doğrulandı: 1
+2025-01-18 01:06:12 [main] INFO  pages.CartPage - Ürün fiyatı doğrulandı: 1.34999
+2025-01-18 01:06:12 [main] INFO  pages.CartPage - Sepet detayları doğrulama işlemi tamamlandı.
+2025-01-18 01:06:12 [main] INFO  tests.CartVerificationTest - Ürün detayları ve sepetteki bilgiler başarıyla doğrulandı.
+2025-01-18 01:06:12 [main] INFO  tests.CartVerificationTest - Sepet detaylarını doğrulama testi başarıyla tamamlandı.
+2025-01-18 01:06:12 [main] INFO  tests.FavoritesTest - FavoritesPage nesnesi başarıyla başlatıldı.
+2025-01-18 01:06:12 [main] INFO  tests.BaseTest - Bir sonraki test için 3 saniye bekleniyor...
+2025-01-18 01:06:15 [main] INFO  tests.BaseTest - Bekleme işlemi tamamlandı.
+2025-01-18 01:06:15 [main] INFO  tests.FavoritesTest - Favoriler testi başlatılıyor.
+2025-01-18 01:06:15 [main] INFO  tests.FavoritesTest - Ürün favorilere ekleniyor.
+2025-01-18 01:06:15 [main] INFO  pages.FavoritesPage - Favorilere ekleme işlemi başlatılıyor.
+2025-01-18 01:06:15 [main] INFO  pages.FavoritesPage - Favorilere ekle butonuna tıklandı.
+2025-01-18 01:06:25 [main] ERROR pages.FavoritesPage - Favorilere ekleme sırasında bir sorun oluştu: Expected condition failed: waiting for value to contain "favorited". (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53394/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 649eb1e8876924f84230716988ee8567
+2025-01-18 01:06:25 [main] INFO  tests.FavoritesTest - Ürün başarıyla favorilere eklendi.
+2025-01-18 01:06:25 [main] INFO  tests.FavoritesTest - Favorilerim sayfasına gidiliyor.
+2025-01-18 01:06:25 [main] INFO  pages.FavoritesPage - Favorilerim sayfasına yönlendirme işlemi başlatılıyor.
+2025-01-18 01:06:28 [main] INFO  pages.FavoritesPage - Favorilerim sayfasına başarıyla gidildi.
+2025-01-18 01:06:28 [main] INFO  tests.FavoritesTest - Favorilerim sayfasına başarıyla gidildi.
+2025-01-18 01:06:28 [main] INFO  tests.FavoritesTest - Favori ürün doğrulaması yapılıyor.
+2025-01-18 01:06:28 [main] INFO  pages.FavoritesPage - Favorilerdeki ürün doğrulama işlemi başlatılıyor.
+2025-01-18 01:06:39 [main] ERROR pages.FavoritesPage - Favoriler doğrulama sırasında bir sorun oluştu: Expected condition failed: waiting for visibility of all [] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53394/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 649eb1e8876924f84230716988ee8567
+2025-01-18 01:06:39 [main] INFO  tests.FavoritesTest - Favorilerdeki ürün başarıyla doğrulandı.
+2025-01-18 01:06:39 [main] INFO  tests.FavoritesTest - Favoriler testi başarıyla tamamlandı.
+2025-01-18 01:06:39 [main] INFO  tests.BaseTest - Test tamamlandı, tarayıcı kapatılıyor...
+2025-01-18 01:06:39 [main] INFO  tests.BaseTest - Tarayıcı başarıyla kapatıldı.
