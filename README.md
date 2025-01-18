@@ -30,7 +30,7 @@ Bu proje, LC Waikiki e-ticaret platformu için geliştirilmiş kapsamlı bir tes
 
 4. **Sepet Testi**
 
-- Sepetim sayfasina gidilir.
+- Sepetim sayfasına gidilir.
 - Ürün miktarı stok durumuna göre artırılır. 
 - Sepetteki ürünün detayları doğrulanır.
 
