@@ -40,4 +40,35 @@ Bu proje, LC Waikiki e-ticaret platformu için geliştirilmiş kapsamlı bir tes
 - Favorilere eklenen ürünün listede olduğu kontrol edilir.	
 
 ## Allure Report Sonuçları
+![Allure Raporu](screenshots/allureReport.png)
+![Allure Raporu2](screenshots/allureReports2.png)
+
+## Proje Ekran Görüntüleri
+
+### 1. Login Testi
+![Login Testi](screenshots/loginTest.png)
+
+### 2. Kategori Seçimi Testi
+![Kategori Seçimi](screenshots/category-selection.png)
+
+### 3. Filtre Seçimi Testi
+![Kategori Seçimi](screenshots/productActions.png)
+
+### 4. Sıralama Testi
+![Kategori Seçimi](screenshots/productActionsSorting.png)
+
+### 5. Ürün Seçim Testi
+![Kategori Seçimi](screenshots/productActionsSelectSize.png)
+
+### 6. Sepete Ekleme ve Doğrulama Testi
+![Kategori Seçimi](screenshots/cartVerification.png)
+
+### 7. Favorilere Ekleme Testi
+![Kategori Seçimi](screenshots/addFavorites.png)
+
+### 8. Favoriler Doğrulama Testi
+![Kategori Seçimi](screenshots/favoritesPage.png)
+
+
+
 

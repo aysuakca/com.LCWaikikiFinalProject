@@ -1,1 +1,0 @@
-{"uuid":"c2f3b685-a69f-4092-832c-c0b3ad1b666c","name":"tests.ProductPurchaseTest","children":["b9464b76-6cfc-4e8b-99e8-d7fcca65dc7c"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1736933889904,"stop":1736933891108}],"afters":[],"start":1736933889882,"stop":1736933909086}

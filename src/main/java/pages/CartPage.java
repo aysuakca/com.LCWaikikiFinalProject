@@ -46,7 +46,6 @@ public class CartPage {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         PageFactory.initElements(driver, this);
-        logger.info("CartPage nesnesi başarıyla başlatıldı.");
     }
 
     //Sepetteki ürün miktarı kritik stok durumuna bakılarak artılır(kritik stok uyarısı yok ise maksimum değerde uyarı verilir)
@@ -116,7 +115,7 @@ public class CartPage {
     }
 
     public void verifyCartDetails(String expectedProductName, String expectedColor, int expectedQuantity) {
-        logger.info("Sepet detayları doğrulanıyor.");
+
         try {
             // Ürünün sepetteki bilgilerini alıyoruz
             String actualCartName = wait.until(ExpectedConditions.visibilityOf(cartProductName)).getText().trim();
@@ -154,8 +153,6 @@ public class CartPage {
             } else {
                 logger.info("Ürün fiyatı doğrulandı: " + actualCartPrice);
             }
-
-            logger.info("Sepet detayları doğrulama işlemi tamamlandı.");
 
         } catch (TimeoutException | NoSuchElementException e) {
             logger.error("Sepet detayları doğrulanırken hata oluştu: " + e.getMessage());

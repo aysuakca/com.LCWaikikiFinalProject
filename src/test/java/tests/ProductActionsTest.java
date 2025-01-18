@@ -30,7 +30,6 @@ public class ProductActionsTest extends BaseTest {
         // PageFactory kullanılarak ProductPage nesnesi başlatılıyor.
         // Bu, sayfayla ilişkili öğelerin Selenium tarafından yönetilmesini sağlar.
         productPage = PageFactory.initElements(Driver.getDriver(), ProductPage.class);
-        logger.info("ProductPage nesnesi başarıyla başlatıldı.");
     }
 
     @Test(priority = 7, dependsOnMethods = "tests.CategorySelectionTest.selectOutFit")

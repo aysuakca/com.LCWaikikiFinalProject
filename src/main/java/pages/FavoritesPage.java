@@ -53,9 +53,7 @@ public class FavoritesPage {
     @Step("Favorilerim sayfasına gidiliyor:")
     public void navigateToFavoritesPage() {
         try {
-            logger.info("Favorilerim sayfasına yönlendirme işlemi başlatılıyor.");
             wait.until(ExpectedConditions.elementToBeClickable(favoritesIcon)).click();
-            logger.info("Favorilerim sayfasına başarıyla gidildi.");
         } catch (TimeoutException | NoSuchElementException e) {
             logger.error("Favorilerim sayfasına yönlendirme sırasında bir sorun oluştu: " + e.getMessage());
         }
@@ -65,7 +63,6 @@ public class FavoritesPage {
     @Step("Favorilerimde ürün doğrulaması yapılıyor:")
     public void verifyFavoriteProduct() {
         try {
-            logger.info("Favorilerdeki ürün doğrulama işlemi başlatılıyor.");
             wait.until(ExpectedConditions.visibilityOfAllElements(favoriteProducts));
 
             boolean productFound = false;

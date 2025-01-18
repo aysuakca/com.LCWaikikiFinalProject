@@ -41,25 +41,21 @@ public class CategoryPage {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         PageFactory.initElements(driver, this);
-        logger.info("CategoryPage nesnesi başarıyla başlatıldı.");
     }
 
     //Ana kategori listesinden kategori seçilir
     @Step("Ana Kategori seçiliyor: {targetCategory}")
     public void selectCategory(String targetCategory) {
         try {
-            logger.info("Ana kategori seçiliyor: " + targetCategory);
             Actions actions = new Actions(driver);
 
             for (WebElement category : categories) {
                 if (category.getText().trim().equalsIgnoreCase(targetCategory)) {
                     actions.moveToElement(category).perform();
-                    logger.info("Ana kategori başarıyla seçildi: " + targetCategory);
                     break;
                 }
             }
         } catch (Exception e) {
-            logger.error("Ana kategori seçimi sırasında hata oluştu: " + e.getMessage());
         }
     }
 
@@ -67,18 +63,15 @@ public class CategoryPage {
     @Step("Alt Kategori seçiliyor: {subMenuName}")
     public void selectSubMenu(String subMenuName) {
         try {
-            logger.info("Alt kategori seçiliyor: " + subMenuName);
             Actions actions = new Actions(driver);
 
             for (WebElement subMenu : subMenus) {
                 if (subMenu.getText().trim().equals(subMenuName)) {
                     actions.moveToElement(subMenu).perform();
-                    logger.info("Alt kategori başarıyla seçildi: " + subMenuName);
                     break;
                 }
             }
         } catch (Exception e) {
-            logger.error("Alt kategori seçimi sırasında hata oluştu: " + e.getMessage());
         }
     }
 
@@ -87,17 +80,13 @@ public class CategoryPage {
     @Step("Ürün kategorisi seçiliyor: {outfitCategory}")
     public void selectOutFit(String outfitCategory) {
         try {
-            logger.info("Ürün kategorisi seçiliyor: " + outfitCategory);
-
             for (WebElement outfit : outfitCategories) {
                 if (outfit.getText().trim().equals(outfitCategory)) {
                     outfit.click();
-                    logger.info("Ürün kategorisi başarıyla seçildi: " + outfitCategory); // Log: İşlem tamamlandı
                     break;
                 }
             }
         } catch (Exception e) {
-            logger.error("Ürün kategorisi seçimi sırasında hata oluştu: " + e.getMessage()); // Log: Hata
         }
     }
 
@@ -105,37 +94,45 @@ public class CategoryPage {
     @Step("Beden filtreleri seçiliyor: {targetSizes}")
     public void selectSizeFilter(List<String> targetSizes) {
         try {
-            logger.info("Beden filtreleme işlemi başlatılıyor. Hedef bedenler: " + targetSizes); // Log: İşlem başlıyor
+            List<WebElement> sizes = driver.findElements(By.xpath("//div[contains(@class,'size-filter')]/div"));
 
             for (String targetSize : targetSizes) {
                 boolean isSizeSelected = false;
 
                 for (WebElement size : sizes) {
                     String sizeText = size.getText().replaceAll("\\s+", " ").replaceAll("\\(.*?\\)", "").trim();
-                    logger.debug("Bulunan beden: '" + sizeText + "'"); // Log: Bulunan beden
+
+                    System.out.println("Bulunan beden: '" + sizeText + "'");
 
                     if (sizeText.equalsIgnoreCase(targetSize)) {
-                        if (targetSize.equalsIgnoreCase("6 Yaş")) {
-                            clickAge6Filter();
-                        } else {
-                            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'center'});", size);
-                            wait.until(ExpectedConditions.elementToBeClickable(size)).click();
+                        try {
+                            if (targetSize.equalsIgnoreCase("6 Yaş")) {
+                                clickAge6Filter();
+                            } else {
+                                ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'center'});", size);
+                                wait.until(ExpectedConditions.elementToBeClickable(size));
+                                size.click();
+                            }
+                            wait.until(ExpectedConditions.attributeContains(size, "class", "filter-option--active"));
+                            System.out.println("Beden filtresi başarıyla uygulandı: " + sizeText);
+                            isSizeSelected = true;
+                            break;
+
+                        } catch (Exception e) {
+                            System.err.println("Beden seçimi sırasında hata oluştu: " + e.getMessage());
                         }
-                        wait.until(ExpectedConditions.attributeContains(size, "class", "filter-option--active"));
-                        logger.info("Beden filtresi başarıyla uygulandı: " + sizeText); // Log: İşlem tamamlandı
-                        isSizeSelected = true;
-                        break;
                     }
                 }
 
                 if (!isSizeSelected) {
-                    logger.warn("Beden bulunamadı veya seçilemedi: " + targetSize); // Log: Beden bulunamadı
+                    System.out.println("Beden bulunamadı veya seçilemedi: " + targetSize);
                 }
             }
 
-            logger.info("Beden filtreleme işlemi tamamlandı."); // Log: İşlem tamamlandı
+            System.out.println("Beden seçim işlemi tamamlandı.");
+
         } catch (Exception e) {
-            logger.error("Beden filtresi sırasında hata oluştu: " + e.getMessage()); // Log: Hata
+            System.err.println("Beden filtresi sırasında genel bir hata oluştu: " + e.getMessage());
         }
     }
 

@@ -37,7 +37,6 @@ public class BaseTest {
     public void waitBeforeTest() throws InterruptedException {
         logger.info("Bir sonraki test için 3 saniye bekleniyor...");
         Thread.sleep(3000); // 3 saniye bekleme
-        logger.info("Bekleme işlemi tamamlandı.");
     }
 
     @AfterSuite

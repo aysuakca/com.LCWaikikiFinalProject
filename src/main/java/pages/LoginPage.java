@@ -39,7 +39,6 @@ public class LoginPage {
     @Step("Kullanıcı giriş yapıyor: E-posta = {email}, Şifre = ****")
     public void login(String email, String password) {
         try {
-            logger.info("Giriş işlemi başlatılıyor. E-posta: " + email);
             loginButton.click(); // Giriş yap butonuna tıklıyoruz
             logger.info("Giriş yap butonuna tıklandı.");
 
@@ -52,7 +51,6 @@ public class LoginPage {
             passwordField.sendKeys(password); // Şifre alanına şifremizi giriyoruz
             logger.info("Şifre alanına değer gönderildi.");
 
-            System.out.println("Kullanıcı giriş bilgileri gönderildi.");
             logger.info("Giriş bilgileri başarıyla gönderildi.");
         } catch (Exception e) {
             logger.error("Giriş işlemi sırasında bir hata oluştu: " + e.getMessage());
