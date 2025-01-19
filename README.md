@@ -72,6 +72,8 @@ Test detaylarını görmek için [buraya tıklayın](.LCWTestCase.pdf).
 ### 8. Favoriler Doğrulama Testi
 ![Kategori Seçimi](screenshots/favoritesPage.png)
 
+### Author
+- **Derya Aysu Kılıç**
 
 
 
