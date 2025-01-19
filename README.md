@@ -39,6 +39,9 @@ Bu proje, LC Waikiki e-ticaret platformu için geliştirilmiş kapsamlı bir tes
 - Favorilerim ekranına gidilir.
 - Favorilere eklenen ürünün listede olduğu kontrol edilir.	
 
+Test detaylarını görmek için [buraya tıklayın](.LCWTestCase.pdf).
+
+
 ## Allure Report Sonuçları
 ![Allure Raporu](screenshots/allureReport.png)
 ![Allure Raporu2](screenshots/allureReports2.png)
